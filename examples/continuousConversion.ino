@@ -9,7 +9,7 @@ void setup()
 {
   Serial.begin(115200);
 
-  adc.begin(14, 12, 13, 5, 19); // CLK, MISO, MOSI, CS, DREADY
+  adc.begin(14, 12, 13, 5, 19); // CLK, MISO, MOSI, CS, DREADY.
 
   adc.setMode(CONVERSION_MODE_CONT);                
   adc.setDataFormat(DATA_FORMAT_BINARY);           
