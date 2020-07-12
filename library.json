@@ -1,12 +1,12 @@
 {
-  "name": "DAC8830",
-  "keywords": "SPI, DAC, sensor",
-  "description": "Arduino Library for DAC8830.",
+  "name": "MAX11214",
+  "keywords": "SPI, ADC, sensor, MAX, 11214",
+  "description": "Arduino Library for ADC MAX11214.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LucasEtchezuri/Arduino-DAC8830.git"
+    "url": "https://github.com/LucasEtchezuri/Arduino-MAX11214.git"
   },
-  "version": "1.1.1", 
+  "version": "1.0.0", 
   "frameworks": "arduino",
   "platforms": ["atmelavr", "espressif8266", "espressif32"]
 }
